@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --color-primary: #ffffff;
+    --color-secondary: #ffffff;
+    --color-title: #000000;
+    --color--sub-title: rgb(75 85 99);
+  }
+
+  [data-theme="dark"] {
+    --color-primary: #121827;
+    --color-secondary: #1f2938;
+    --color-title: #ffffff;
+    --color--sub-title: #9da2af;
+  }
+}
+
+.display-none {
+  @apply hidden;
+}

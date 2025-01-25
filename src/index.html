@@ -6,7 +6,7 @@
     <link href="./output.css" rel="stylesheet" />
     <title>HaiderStore</title>
   </head>
-  <body class="bg-primary h-lvh">
+  <body class="bg-primary h-lvh ">
     <!-- Switch Mode -->
     <header
       id="theme-toggle"
@@ -43,14 +43,64 @@
     </header>
 
     <!-- Start Card Products -->
-    <main class="grid grid-row-1 grid-col-1 mt-4 justify-center items-center">
+    <main class="grid grid-row-1 grid-col-1 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 lg::grid-rows-3 mt-6 gap-y-5 g-x-2 place-items-center mx-6 lg:mx-4">
       <!--   ✅ Product card 1 - Starts Here 👇 -->
       <div
         class="w-72 bg-secondary shadow-md rounded-xl duration-500 hover:opacity-75 hover:shadow-xl"
       >
         <a href="#">
           <img
-            src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://images.unsplash.com/photo-1734899848867-02ac05338425?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product"
+            class="h-80 w-72 object-cover rounded-t-xl"
+          />
+          <div class="px-4 py-3 w-72">
+            <!-- <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span> -->
+            <p class="text-lg font-bold text-title truncate block">
+              اسم المنتج
+            </p>
+            <div class="flex items-center">
+              <small>
+                <p class="text-sm text-red-700 cursor-auto ml-2 line-through">
+                  $199
+                </p>
+              </small>
+              <p class="text-lg font-semibold text-title my-3">$149</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="w-72 bg-secondary shadow-md rounded-xl duration-500 hover:opacity-75 hover:shadow-xl"
+      >
+        <a href="#">
+          <img
+            src="https://images.unsplash.com/photo-1734899848867-02ac05338425?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product"
+            class="h-80 w-72 object-cover rounded-t-xl"
+          />
+          <div class="px-4 py-3 w-72">
+            <!-- <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span> -->
+            <p class="text-lg font-bold text-title truncate block">
+              اسم المنتج
+            </p>
+            <div class="flex items-center">
+              <small>
+                <p class="text-sm text-red-700 cursor-auto ml-2 line-through">
+                  $199
+                </p>
+              </small>
+              <p class="text-lg font-semibold text-title my-3">$149</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="w-72 bg-secondary shadow-md rounded-xl duration-500 hover:opacity-75 hover:shadow-xl"
+      >
+        <a href="#">
+          <img
+            src="https://images.unsplash.com/photo-1734899848867-02ac05338425?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Product"
             class="h-80 w-72 object-cover rounded-t-xl"
           />
@@ -71,7 +121,8 @@
         </a>
       </div>
       <!--   🛑 Product card 1 - Ends Here  -->
-    </main>
-    <script src="app.js"></script>
+    </main>   
+     <script src="app.js"></script>
   </body>
 </html>
+
